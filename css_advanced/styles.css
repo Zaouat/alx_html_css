@@ -52,6 +52,8 @@ html,
 body {
     height: 100%;
     min-height: 100%;
+    font-family: 'SourceSansPro', sans-serif;
+
 }
 
 * {
@@ -65,7 +67,7 @@ body {
 
 
 header {
-    height: 105%;
+    height: 110%;
     background-image: url('../assets/images/Object.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -105,7 +107,7 @@ nav ul li a {
     background-position: center;
     color: white;
     text-align: center;
-    padding: 120px 0;
+    padding: 100px 0;
 }
 
 .custom-hero h1 {
@@ -145,9 +147,9 @@ nav ul li a {
 
 .custom-hero h2 {
     font-size: 32px;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    font-weight: 700;
+    margin-top: 140px;
+    margin-bottom: 80px;
+    font-weight: 200;
     font-family: 'SourceSansPro', sans-serif;
 }
 
@@ -163,7 +165,7 @@ nav ul li a {
 .custom-hero .pros-container {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 100px;
 }
 
 .custom-hero .pro {
@@ -190,6 +192,164 @@ nav ul li a {
     font-style: italic;
     font-weight: 500;
     font-family: 'SourceSansPro', sans-serif;
+}
+
+.testimonial {
+    background-color: #C271FF;
+    padding: 80px 0;
+}
+
+.testimonial-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.testimonial-image {
+    flex-shrink: 0;
+    margin-right: 40px;
+}
+
+.testimonial-image img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial-text {
+    flex: 1;
+}
+
+.testimonial-text blockquote {
+    font-size: 22px;
+    font-style: normal;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    font-weight: 500;
+    font-family: 'SourceSansPro', sans-serif;
+}
+
+.testimonial-text h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-family: 'SourceSansPro', sans-serif;
+}
+
+.testimonial-text p {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'SourceSansPro', sans-serif;
+}
+
+.popular-tutorials {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.popular-tutorials h2 {
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.highlight {
+    color: #C271FF;
+    font-weight: 700;
+}
+
+.tutorials-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tutorial-card {
+    text-align: left;
+}
+
+.thumbnail {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.thumbnail img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play-icon i {
+    color: #071629;
+    font-size: 28px;
+}
+
+.tutorial-card h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.tutorial-card>p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(7, 22, 41, 0.8);
+    margin-bottom: 15px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.author img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.author h4 {
+    font-size: 12px;
+    font-weight: 600;
+    color: #C271FF;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stars {
+    color: #C271FF;
+    font-size: 14px;
+}
+
+.duration {
+    color: #C271FF;
+    font-weight: 600;
+    font-size: 14px;
 }
 
 @keyframes button-hover {
