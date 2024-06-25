@@ -404,6 +404,55 @@ nav ul li a {
     animation: button-hover 0.3s ease-in-out;
 }
 
+.faq {
+    padding: 80px 0;
+    font-family: 'SourceSansPro', sans-serif;
+}
+
+.faq-title {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 60px;
+}
+
+.faq-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.faq-column {
+    width: 48%;
+}
+
+.faq-item {
+    margin-bottom: 40px;
+}
+
+.faq-question {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.faq-answer {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #07162980;
+}
+
+@media (max-width: 768px) {
+    .faq-container {
+        flex-direction: column;
+    }
+
+    .faq-column {
+        width: 100%;
+    }
+}
 
 @keyframes btn-purple {
     0% {
