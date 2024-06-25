@@ -1,0 +1,207 @@
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('../assets/fonts/source-sans-pro/SourceSansPro-ExtraLight.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('../assets/fonts/source-sans-pro/SourceSansPro-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('../assets/fonts/source-sans-pro/SourceSansPro-Regular.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('../assets/fonts/source-sans-pro/SourceSansPro-LightIt.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('../assets/fonts/source-sans-pro/SourceSansPro-Semibold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('../assets/fonts/source-sans-pro/SourceSansPro-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('../assets/fonts/source-sans-pro/SourceSansPro-Black.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+html,
+body {
+    height: 100%;
+    min-height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+header {
+    height: 105%;
+    background-image: url('../assets/images/Object.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'SourceSansPro', sans-serif;
+    color: #fff !important;
+    margin-right: 35px;
+    font-size: 14px;
+    transition: color 0.3s ease-in-out;
+}
+
+
+.custom-hero {
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 120px 0;
+}
+
+.custom-hero h1 {
+    font-size: 100px;
+    font-weight: 800;
+    font-family: 'SourceSansPro', sans-serif;
+}
+
+.custom-hero span {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'SourceSansPro', sans-serif;
+    margin: 0 20px;
+    margin-top: auto;
+}
+
+.custom-hero button {
+    background-color: #c271ff;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    padding: 15px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 50px;
+    font-weight: 700;
+    font-family: 'SourceSansPro', sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 7, 0.2);
+}
+
+.custom-hero button:hover {
+    background-color: white;
+    color: #c271ff;
+    animation: button-hover 0.3s ease-in-out;
+}
+
+
+.custom-hero h2 {
+    font-size: 32px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-family: 'SourceSansPro', sans-serif;
+}
+
+.custom-hero h2 a {
+    font-size: 32px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    color: #c271ff;
+    font-family: 'SourceSansPro', sans-serif;
+}
+
+.custom-hero .pros-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.custom-hero .pro {
+    text-align: center;
+}
+
+.custom-hero .pro img {
+    width: 150px;
+    height: 150px;
+    border-radius: 200px;
+    object-fit: cover;
+}
+
+.custom-hero .pro h3 {
+    margin-top: 14px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'SourceSansPro', sans-serif;
+}
+
+.custom-hero .pro p {
+    font-size: 14px;
+    margin-top: 5px;
+    font-style: italic;
+    font-weight: 500;
+    font-family: 'SourceSansPro', sans-serif;
+}
+
+@keyframes button-hover {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
